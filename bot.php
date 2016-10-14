@@ -4,6 +4,8 @@ $access_token = 'nGESwNQuDJhp9oO5PDYZrMefs6Na2syuV59azEFlYM5rfziLNGhAPems915DQOa
 
 // Get POST body content
 $content = file_get_contents('php://input');
+$objConnect = mysql_connect("mysql.hostinger.in.th","u755963757_lineb","VKkM5Kt6wN00") or die("Error Connect to Database");
+$objDB = mysql_select_db("u755963757_lineb");
 // Parse JSON
 $events = json_decode($content, true);
 // Validate parsed JSON data
