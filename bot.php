@@ -1,6 +1,6 @@
 <?php
 $access_token = 'nGESwNQuDJhp9oO5PDYZrMefs6Na2syuV59azEFlYM5rfziLNGhAPems915DQOa3wi2mUg1xCZ6M1Ly+HXa+8gdlIZVl+i5bq/s+V7qETdfZg7HniKShZjhbd51UICEZsW+GUS0DhJB/bSiK1LUEcQdB04t89/1O/w1cDnyilFU=';
-$objConnect = mysql_connect("mysql.hostinger.in.th","u755963757_lineb","VKkM5Kt6wN") or die("Error Connect to Database");
+$objConnect = mysql_connect("mysql.hostinger.in.th","u755963757_lineb","VKkM5Kt6wN00") or die("Error Connect to Database");
 $objDB = mysql_select_db("u755963757_lineb");
 
 // Get POST body content
